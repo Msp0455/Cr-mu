@@ -54,11 +54,11 @@ OWNER_ID = int(getenv("OWNER_ID", None))
 
 # Your heroku app name
 
-HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
+HEROKU_APP_NAME = getenv("Shri p")
 
 # Get it from http://dashboard.heroku.com/account
 
-HEROKU_API_KEY = getenv("HEROKU_API_KEY")
+HEROKU_API_KEY = getenv("HRKU-AA5ZVdYEkxHIphmUniMXrr8H4_AMUZQ3GKHL1p22HC8w_____wfTpwFdrTn8")
 
 
 
@@ -110,9 +110,9 @@ PRIVACY_LINK = getenv("PRIVACY_LINK", "https://telegra.ph/Privacy-Policy-for-Avi
 
 # Get this credentials from https://developer.spotify.com/dashboard
 
-SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", None)
+SPOTIFY_CLIENT_ID = getenv("09124fcd5332420994828f8594a45093", None)
 
-SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", None)
+SPOTIFY_CLIENT_SECRET = getenv("41ca604da6f649a595315093a699b7a2", None)
 
 
 
@@ -243,4 +243,5 @@ if SUPPORT_GROUP:
             "[ERROR] - Your SUPPORT_GROUP url is wrong. Please ensure that it starts with https://"
 
         )
+
 
